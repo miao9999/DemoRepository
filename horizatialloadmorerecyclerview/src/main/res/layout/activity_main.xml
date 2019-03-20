@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.horizatialloadmorerecyclerview.PulToLeftViewGroup
+        android:id="@+id/pull_group"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:scrollbars="none"
+            android:background="#FFFFFF"
+            android:overScrollMode="never"
+            android:id="@+id/rv_hsv_type_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+        <include
+            layout="@layout/item"/>
+    </com.example.horizatialloadmorerecyclerview.PulToLeftViewGroup>
+
+</android.support.constraint.ConstraintLayout>

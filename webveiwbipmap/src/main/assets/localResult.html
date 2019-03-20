@@ -1,0 +1,113 @@
+<html>
+ <head></head>
+ <body>
+  <div class="boxLayer" style="width: 600px; height: 500px; display: block; left: 455.5px; top: 84px;">
+   <div id="cldiv" class="alldenglu">
+    <form action="spcl.jsp" method="post" enctype="multipart/form-data" name="indexForm">
+     <table width="600" height="200" cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+       <tr> 
+        <!-- <td background="images/bg-div.jpg">-->
+        <td background="">
+         <table bordercolorlight="#b6d3ec" bordercolordark="#ffffff" width="566" cellspacing="0" cellpadding="6" border="1" align="center"> 
+          <tbody>
+           <tr>
+            <td colspan="3">
+             <div class="STYLE1" style1="" align="center">
+             	 发 票 查 询 结 果
+             </div></td>
+           </tr>
+           <tr>
+            <td rowspan="5" width="181" align="left"><span class="STYLE2">查询结果说明：</span>&nbsp;&nbsp;&nbsp;&nbsp; <br /> &nbsp;&nbsp;&nbsp;&nbsp;1.发票代码、号码、开票人纳税人识别号与税务机关记录不相符，提示该发票比对结果为假。<br /> &nbsp;&nbsp;&nbsp;&nbsp; 2.发票代码、号码、开票人纳税人识别号与税务机关记录相符，且是第一次查询，提示比对结果为真且第一次查询。<br /> &nbsp;&nbsp;&nbsp;&nbsp;3.如果发票代码、号码、开票人纳税人识别号与税务机关记录相符，且不是第一次查询，提示：该发票为几次查询。<br />&nbsp;&nbsp;&nbsp;&nbsp; 4.发票代码、号码、开票人纳税人识别号比对相符，提示开票单位与购票单位相符；发票代码、号码、开票人纳税人识别号比对不符，提示开票单位与购票单位不符。<br />&nbsp;&nbsp;&nbsp;&nbsp; 5. 如果查询结果提示开票单位与购票单位不符，该发票存在问题，请拨打举报电话：12366，进行举报，感谢您的合作。</td> 
+            <td width="140">
+             <div align="center">
+              	发票代码:
+             </div></td> 
+            <td width="201">111001777011</td> 
+           </tr> 
+           <tr> 
+            <td>
+             <div align="center">
+              	发票号码：
+             </div></td> 
+            <td>82936586</td> 
+           </tr> 
+           <tr> 
+            <td>
+             <div align="center">
+              	发票密码：
+             </div></td> 
+            <td>95451538</td> 
+           </tr> 
+           <tr> 
+            <td>
+             <div align="center">
+              	购票单位：
+             </div></td> 
+            <td>北京德邦货运代理有限公司</td> 
+           </tr> 
+           <tr> 
+            <td>
+             <div align="center">
+              	查询结果：
+             </div></td> 
+            <td> 
+             <div class="STYLE3" align="left">
+              	北京市国家税务局通用定额发票,税控后台校验比对结果：
+              <font style="font-weight:bold;" size="3" face="黑体" color="red">相符</font>。该查询为第8次正确查询。
+             </div></td> 
+           </tr> 
+           <tr> 
+            <td colspan="3"> 
+             <div class="STYLE3" align="center">
+              	举报须知：如您怀疑您所查询的发票为假发票，请拨打举报电话12366！
+             </div></td>
+           </tr> 
+           <tr> 
+            <td colspan="3"> 
+             <div align="center">
+              <input id="button" onclick="loadBox.hide(),disbleButtont()" value=" 继续查询 " name="button" type="button" /> &nbsp;&nbsp;&nbsp;&nbsp; 
+              <input onclick="loadBox.hide1(),disbleButtont()" value=" 关闭窗口 " name="button" type="button" /> 
+             </div></td>
+           </tr> 
+          </tbody>
+         </table></td> 
+       </tr>
+      </tbody>
+     </table>
+    </form>
+   </div>
+  </div>
+  
+ <!-- 生成的结果图片 -->
+ <!--<div id="imgDiv" style="display:none"></div>-->
+ <div id="imgDiv" ></div>
+ </body>
+ <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+ <script type="text/javascript" src="js/html2canvas.min.js"></script>
+ <script type="text/javascript">
+ 	$(function(){
+	<!--getImg();-->
+ 		//删除按钮
+ 		$("#button").parents("tr")[0].remove();
+ 		
+ 		//生成图片
+        //生成图片
+ 		function getImg(){
+        html2canvas(document.body).then(function(canvas) {
+          $('#imgDiv').html(convertCanvasToImage(canvas));
+       });
+	}
+ 		
+ 		//画布转图片
+        function convertCanvasToImage(canvas) {
+            var image = new Image();
+            image.crossOrigin="anonymous";
+            image.src = canvas.toDataURL("image/png");
+            //document.body.appendChild(image);
+            return image;
+        }
+
+ 	});
+ </script>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/X5WebDemo" />
+            <option value="$PROJECT_DIR$/activitylaunchmode" />
+            <option value="$PROJECT_DIR$/annotationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bottomnavitiontip" />
+            <option value="$PROJECT_DIR$/buildmoreapk" />
+            <option value="$PROJECT_DIR$/characterevaluatordemo" />
+            <option value="$PROJECT_DIR$/clearedittext" />
+            <option value="$PROJECT_DIR$/customdialog" />
+            <option value="$PROJECT_DIR$/daggerdemo" />
+            <option value="$PROJECT_DIR$/filedemo" />
+            <option value="$PROJECT_DIR$/flowlayoutdemo" />
+            <option value="$PROJECT_DIR$/glidedemo" />
+            <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/horizatialloadmorerecyclerview" />
+            <option value="$PROJECT_DIR$/invoicedemo" />
+            <option value="$PROJECT_DIR$/itemselect" />
+            <option value="$PROJECT_DIR$/lifecycledemo" />
+            <option value="$PROJECT_DIR$/listrevers" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/okhttpdemo" />
+            <option value="$PROJECT_DIR$/openotherapp" />
+            <option value="$PROJECT_DIR$/popshowup" />
+            <option value="$PROJECT_DIR$/qrcode" />
+            <option value="$PROJECT_DIR$/reMyDay1306支付宝" />
+            <option value="$PROJECT_DIR$/reMyDay1307买欢乐豆" />
+            <option value="$PROJECT_DIR$/relectdemo" />
+            <option value="$PROJECT_DIR$/retrofitdemo" />
+            <option value="$PROJECT_DIR$/roundimg" />
+            <option value="$PROJECT_DIR$/statebar" />
+            <option value="$PROJECT_DIR$/tablayoutwidth" />
+            <option value="$PROJECT_DIR$/textswither" />
+            <option value="$PROJECT_DIR$/uridata" />
+            <option value="$PROJECT_DIR$/viewpager" />
+            <option value="$PROJECT_DIR$/webveiwbipmap" />
+            <option value="$PROJECT_DIR$/windowdemo" />
+            <option value="$PROJECT_DIR$/xbanner" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

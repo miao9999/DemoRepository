@@ -1,0 +1,5 @@
+include ':app', ':customdialog', ':roundimg', ':buildmoreapk', ':horizatialloadmorerecyclerview', ':qrcode', ':popshowup', ':listrevers', ':bottomnavitiontip', ':uridata', ':viewpager', ':xbanner', ':itemselect', ':invoicedemo', ':webveiwbipmap', ':retrofitdemo', ':openotherapp', ':statebar', ':myapplication', ':flowlayoutdemo', ':textswither', ':clearedittext', ':activitylaunchmode', ':handlerdemo', ':characterevaluatordemo', ':windowdemo', ':daggerdemo', ':tablayoutwidth', ':okhttpdemo', ':filedemo', ':lifecycledemo', ':annotationdemo', ':glidedemo', ':relectdemo',
+        ':reMyDay1306支付宝', ':reMyDay1307买欢乐豆', ':X5WebDemo'
+
+
+

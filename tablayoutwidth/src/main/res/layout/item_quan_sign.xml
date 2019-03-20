@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/sign_iv"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/quan_star_normal" />
+
+    <TextView
+        android:textSize="12dp"
+        android:id="@+id/sign_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="第一天" />
+</LinearLayout>
